@@ -2,6 +2,7 @@ import { useState } from "react"
 import { supabase } from "./client"
 import { useNavigate } from "react-router-dom"
 
+
 export default function Create() {
   const navigate = useNavigate()
 
@@ -9,6 +10,7 @@ export default function Create() {
   const [special_skill, setSpecialSkill] = useState("")
   const [favorite_food, setFavoriteFood] = useState("")
   const [power, setPower] = useState("")
+  const [image, setImage] = useState("")
 
   const createMember = async () => {
     const { error } = await supabase.from("party_members").insert([
