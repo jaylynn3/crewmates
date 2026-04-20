@@ -21,7 +21,7 @@ The following **required** functionality is completed:
   - Each crewmate has an edit button that will take users to an update form for the relevant crewmate
   - Users can see the current attributes of their crewmate on the update form
   - After editing the crewmate's attribute values using the form, the user can immediately see those changes reflected in the update form and on the summary page 
-- [ ] **A previously created crewmate can be deleted from the crewmate list**
+- [x] **A previously created crewmate can be deleted from the crewmate list**
   - Using the edit form detailed in the previous _crewmates can be updated_ feature, there is a button that allows users to delete that crewmate
   - After deleting a crewmate, the crewmate should no longer be visible in the summary page
   - [x] **Each crewmate has a direct, unique URL link to an info page about them**
@@ -49,7 +49,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='[http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough](https://imgur.com/a/YAc8Uz1)' width='' alt='Video Walkthrough' />
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/YAc8Uz1"  ><a href="//imgur.com/a/YAc8Uz1">codepath crewmates</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
